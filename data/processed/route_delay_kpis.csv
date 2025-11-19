@@ -1,0 +1,2 @@
+route_id,route_short_name,route_long_name,n_events,avg_delay_min,share_over_5min,share_on_time_or_early,impact_score
+19118_700,468,PlusBus Nationalparklinie,4,1.0,0.0,0.5,4.0

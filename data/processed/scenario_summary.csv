@@ -1,0 +1,5 @@
+metric,value
+baseline_total_delay_min,4.0
+scenario_total_delay_min,2.0
+reduction_delay_min,2.0
+reduction_pct,0.5

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Data - do NOT commit large or generated files
+data/raw/*.zip
+data/raw/*.csv
+data/processed/*.db
+data/processed/*.sqlite
+data/processed/*.parquet
+
+# Optionally keep small processed CSVs tracked:
+# If you want to track some specific csvs, whitelist them explicitly:
+!data/processed/route_schedule_kpis.csv
+!data/processed/stop_activity_kpis.csv
+!data/processed/route_delay_kpis.csv
+!data/processed/hour_delay_kpis.csv
+!data/processed/prioritized_routes.csv
+!data/processed/stop_hotspot_kpis.csv
+!data/processed/scenario_routes_delay.csv
+!data/processed/scenario_summary.csv
+
+# OS crap
+.DS_Store
+Thumbs.db
