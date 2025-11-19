@@ -29,7 +29,7 @@ Everything is designed to be BI-ready and easy to port into tools like Power BI 
   - `routes.txt`
   - `trips.txt`
   - `stop_times.txt`
-  - `calendar.txt` / `calendar_dates.txt` (if present)
+  - `calendar.txt` / `calendar_dates.txt`
 
 These are loaded into a SQLite database at:
 
